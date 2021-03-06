@@ -10,10 +10,10 @@ Programmes like these are to be used on machines you have explicit permission to
 * `git clone https://github.com/ninjahacker123/Reveal-Your-Secrets.git`
 * `cd Reveal-Your-Secrets`
 * `pip install -r requirements.txt`
-* `python stormbreaker.py`
+* `python revealyoursecrets.py`
 
 # Installation on Linux and Unix like OS:
 * `git clone https://github.com/ninjahacker123/Reveal-Your-Secrets.git`
 * `cd Reveal-Your-Secrets`
 * `pip3 install -r requirements.txt`
-* `python3 stormbreaker.py`
+* `python3 revealyoursecrets.py`
