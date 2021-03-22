@@ -52,7 +52,8 @@ def main():
                 except IndexError:
                     print(f"[-] Specify a valid Wordlist Path!\n    Try: 'python {args[0]}' for help")
             else:
-                wordlist_path = "wordlists/wordlist.txt"
+                print(f"[-] Please Specify a Wordlist Path to use!\n    Try: 'python {args[0]}' for help")
+                sys.exit()
 
             scan(wordlist_path, URL)
             print(f"[*] Found {found} Hidden Directories!")
@@ -60,8 +61,7 @@ def main():
             print(f"[-] Invalid URL!\n    Try: 'python {args[0]}' for help")
             quit()
     else:
-        print(f"Basic Usage: python {args[0]} [URL]")
-        print(f"            To use Custom Wordlist: python {args[0]} [URL] -w [WORDLIST PATH]")
+        print(f"Basic Usage: python {args[0]} [URL] -w [WORDLIST PATH]")
         quit()
 
 
